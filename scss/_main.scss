@@ -1,0 +1,30 @@
+.main {
+	.content {
+
+		.about {
+			position: absolute;
+			top: 40%;
+			left: 0;
+			right: 0;
+			clear: both;
+			h1 {
+			text-align: center;
+			color: $dark-gray;
+			}
+
+			p  { 
+				text-align: center;
+				margin: 0 auto;
+				max-width: 600px;
+				@include breakpoint(small) {
+					width: 80%;
+				}
+			}
+		}
+
+
+
+	}
+
+
+}
