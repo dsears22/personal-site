@@ -3,10 +3,17 @@
 
 		.about {
 			position: absolute;
-			top: 40%;
+			top: 35%;
 			left: 0;
 			right: 0;
 			clear: both;
+			img {
+				max-width: 1.8rem;
+				display: block;
+				position: relative;
+				margin: auto;
+				bottom: 25px;
+			}
 			h1 {
 			text-align: center;
 			color: $dark-gray;
@@ -19,6 +26,16 @@
 				@include breakpoint(small) {
 					width: 80%;
 				}
+			}
+
+			.large-12 div {
+				width: 150px;
+				height: 3rem;
+				top: 45px;
+				margin: 0 auto;
+				position: relative;
+				display: block;
+
 			}
 		}
 

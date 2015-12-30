@@ -6,6 +6,29 @@
   font-family: 'mirador';
   src: url("../fonts/mirador.otf") format("opentype"); }
 
+/* $button-padding: 0.85em 1em;
+$button-margin: 0 0 $global-margin 0;
+$button-fill: solid;
+$button-background: $primary-color;
+$button-background-hover: scale-color($button-background, $lightness: -15%);
+$button-color: #fff;
+$button-color-alt: #000;
+$button-radius: $global-radius;
+$button-sizes: (
+  tiny: 0.6rem,
+  small: 0.75rem,
+  default: 0.9rem,
+  large: 1.25rem,
+);
+$button-opacity-disabled: 0.25;
+
+// 12. Button Group
+// ----------------
+
+$buttongroup-margin: 1rem;
+$buttongroup-spacing: 1px;
+$buttongroup-child-selector: '.button';
+$buttongroup-expand-max: 6; */
 /**
  * Foundation for Sites by ZURB
  * Version 6.1.1
@@ -427,11 +450,8 @@
   .container .content {
     max-width: 1444px;
     height: 90%;
-    border: solid red 1px;
     margin: 0 auto;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%); }
+    position: relative; }
     @media screen and (min-width: 90.25em) and (max-width: 74.9375em) {
       .container .content {
         max-width: 90%; } }
@@ -450,10 +470,16 @@
 
 .main .content .about {
   position: absolute;
-  top: 40%;
+  top: 35%;
   left: 0;
   right: 0;
   clear: both; }
+  .main .content .about img {
+    max-width: 1.8rem;
+    display: block;
+    position: relative;
+    margin: auto;
+    bottom: 25px; }
   .main .content .about h1 {
     text-align: center;
     color: #3F3F3F; }
@@ -462,6 +488,34 @@
     margin: 0 auto;
     max-width: 600px;
     width: 80%; }
+  .main .content .about .large-12 div {
+    width: 150px;
+    height: 3rem;
+    top: 45px;
+    margin: 0 auto;
+    position: relative;
+    display: block; }
+
+.button {
+  border-radius: 5px;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  display: block;
+  -moz-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+  color: #FF7E9F;
+  font-weight: bold;
+  -webkit-transition: all 500ms ease-out;
+  -moz-transition: all 500ms ease-out;
+  transition: all 500ms ease-out; }
+  .button:hover {
+    box-shadow: none;
+    color: #FF7E9F; }
+
+.cta {
+  background-color: white; }
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
@@ -1881,127 +1935,6 @@ kbd {
   h2,
   h3 {
     page-break-after: avoid; } }
-
-.button {
-  display: inline-block;
-  text-align: center;
-  line-height: 1;
-  cursor: pointer;
-  -webkit-appearance: none;
-  transition: background-color 0.25s ease-out, color 0.25s ease-out;
-  vertical-align: middle;
-  border: 1px solid transparent;
-  border-radius: 0;
-  padding: 0.85em 1em;
-  margin: 0 0 1rem 0;
-  font-size: 0.9rem;
-  background-color: #FF7E9F;
-  color: #000; }
-  [data-whatinput='mouse'] .button {
-    outline: 0; }
-  .button:hover, .button:focus {
-    background-color: #ff4574;
-    color: #000; }
-  .button.tiny {
-    font-size: 0.6rem; }
-  .button.small {
-    font-size: 0.75rem; }
-  .button.large {
-    font-size: 1.25rem; }
-  .button.expanded {
-    display: block;
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0; }
-  .button.primary {
-    background-color: #FF7E9F;
-    color: #000; }
-    .button.primary:hover, .button.primary:focus {
-      background-color: #ff3266;
-      color: #000; }
-  .button.secondary {
-    background-color: #596A9E;
-    color: #fff; }
-    .button.secondary:hover, .button.secondary:focus {
-      background-color: #47557e;
-      color: #fff; }
-  .button.success {
-    background-color: #3adb76;
-    color: #fff; }
-    .button.success:hover, .button.success:focus {
-      background-color: #22bb5b;
-      color: #fff; }
-  .button.alert {
-    background-color: #ec5840;
-    color: #fff; }
-    .button.alert:hover, .button.alert:focus {
-      background-color: #da3116;
-      color: #fff; }
-  .button.warning {
-    background-color: #ffae00;
-    color: #fff; }
-    .button.warning:hover, .button.warning:focus {
-      background-color: #cc8b00;
-      color: #fff; }
-  .button.hollow {
-    border: 1px solid #FF7E9F;
-    color: #FF7E9F; }
-    .button.hollow, .button.hollow:hover, .button.hollow:focus {
-      background-color: transparent; }
-    .button.hollow:hover, .button.hollow:focus {
-      border-color: #bf0031;
-      color: #bf0031; }
-    .button.hollow.primary {
-      border: 1px solid #FF7E9F;
-      color: #FF7E9F; }
-      .button.hollow.primary:hover, .button.hollow.primary:focus {
-        border-color: #bf0031;
-        color: #bf0031; }
-    .button.hollow.secondary {
-      border: 1px solid #596A9E;
-      color: #596A9E; }
-      .button.hollow.secondary:hover, .button.hollow.secondary:focus {
-        border-color: #2d354f;
-        color: #2d354f; }
-    .button.hollow.success {
-      border: 1px solid #3adb76;
-      color: #3adb76; }
-      .button.hollow.success:hover, .button.hollow.success:focus {
-        border-color: #157539;
-        color: #157539; }
-    .button.hollow.alert {
-      border: 1px solid #ec5840;
-      color: #ec5840; }
-      .button.hollow.alert:hover, .button.hollow.alert:focus {
-        border-color: #881f0e;
-        color: #881f0e; }
-    .button.hollow.warning {
-      border: 1px solid #ffae00;
-      color: #ffae00; }
-      .button.hollow.warning:hover, .button.hollow.warning:focus {
-        border-color: #805700;
-        color: #805700; }
-  .button.disabled, .button[disabled] {
-    opacity: 0.25;
-    cursor: not-allowed;
-    pointer-events: none; }
-  .button.dropdown::after {
-    content: '';
-    display: block;
-    width: 0;
-    height: 0;
-    border: inset 0.4em;
-    border-color: #fefefe transparent transparent;
-    border-top-style: solid;
-    position: relative;
-    top: 0.4em;
-    float: right;
-    margin-left: 1em;
-    display: inline-block; }
-  .button.arrow-only::after {
-    margin-left: 0;
-    float: none;
-    top: 0.2em; }
 
 [type='text'], [type='password'], [type='date'], [type='datetime'], [type='datetime-local'], [type='month'], [type='week'], [type='email'], [type='number'], [type='search'], [type='tel'], [type='time'], [type='url'], [type='color'],
 textarea {

@@ -1,0 +1,24 @@
+.button {
+	border-radius: 5px;
+	text-align: center;
+	width: 100%;
+	padding: 10px;
+	display: block;
+	-moz-box-shadow:0px 0px 4px rgba(0,0,0,0.1);
+	-webkit-box-shadow:0px 0px 4px rgba(0,0,0,0.1);
+	box-shadow:0px 0px 4px rgba(0,0,0,0.1);
+	color: $primary-color;
+	font-weight: bold;
+	-webkit-transition: all 500ms ease-out;
+    -moz-transition: all 500ms ease-out;
+   	transition: all 500ms ease-out;
+	&:hover {
+		box-shadow: none;
+		color: $primary-color;
+	}
+
+}
+
+.cta {
+	background-color: white;
+		}
