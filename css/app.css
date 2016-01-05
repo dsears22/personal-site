@@ -1,10 +1,18 @@
 @charset "UTF-8";
 /* Fonts */
 @import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
+@import url("//hello.myfonts.net/count/300a5e");
 @import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
+@import url("//hello.myfonts.net/count/300a5e");
 @font-face {
-  font-family: 'mirador';
-  src: url("../fonts/mirador.otf") format("opentype"); }
+  font-family: 'Mirador-BoldDEMO';
+  src: url("webfonts/300A5E_0_0.eot");
+  src: url("webfonts/300A5E_0_0.eot?#iefix") format("embedded-opentype"), url("webfonts/300A5E_0_0.woff2") format("woff2"), url("webfonts/300A5E_0_0.woff") format("woff"), url("webfonts/300A5E_0_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Mirador-BookDEMO';
+  src: url("webfonts/300A5E_1_0.eot");
+  src: url("webfonts/300A5E_1_0.eot?#iefix") format("embedded-opentype"), url("webfonts/300A5E_1_0.woff2") format("woff2"), url("webfonts/300A5E_1_0.woff") format("woff"), url("webfonts/300A5E_1_0.ttf") format("truetype"); }
 
 /* $button-padding: 0.85em 1em;
 $button-margin: 0 0 $global-margin 0;
@@ -37,8 +45,14 @@ $buttongroup-expand-max: 6; */
  */
 /* Fonts */
 @font-face {
-  font-family: 'mirador';
-  src: url("../fonts/mirador.otf") format("opentype"); }
+  font-family: 'Mirador-BoldDEMO';
+  src: url("webfonts/300A5E_0_0.eot");
+  src: url("webfonts/300A5E_0_0.eot?#iefix") format("embedded-opentype"), url("webfonts/300A5E_0_0.woff2") format("woff2"), url("webfonts/300A5E_0_0.woff") format("woff"), url("webfonts/300A5E_0_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Mirador-BookDEMO';
+  src: url("webfonts/300A5E_1_0.eot");
+  src: url("webfonts/300A5E_1_0.eot?#iefix") format("embedded-opentype"), url("webfonts/300A5E_1_0.woff2") format("woff2"), url("webfonts/300A5E_1_0.woff") format("woff"), url("webfonts/300A5E_1_0.ttf") format("truetype"); }
 
 .slide-in-down.mui-enter, .slide-in-left.mui-enter, .slide-in-up.mui-enter, .slide-in-right.mui-enter, .slide-out-down.mui-leave, .slide-out-right.mui-leave, .slide-out-up.mui-leave, .slide-out-left.mui-leave, .fade-in.mui-enter, .fade-out.mui-leave, .hinge-in-from-top.mui-enter, .hinge-in-from-right.mui-enter, .hinge-in-from-bottom.mui-enter, .hinge-in-from-left.mui-enter, .hinge-in-from-middle-x.mui-enter, .hinge-in-from-middle-y.mui-enter, .hinge-out-from-top.mui-leave, .hinge-out-from-right.mui-leave, .hinge-out-from-bottom.mui-leave, .hinge-out-from-left.mui-leave, .hinge-out-from-middle-x.mui-leave, .hinge-out-from-middle-y.mui-leave, .scale-in-up.mui-enter, .scale-in-down.mui-enter, .scale-out-up.mui-leave, .scale-out-down.mui-leave, .spin-in.mui-enter, .spin-out.mui-leave, .spin-in-ccw.mui-enter, .spin-out-ccw.mui-leave {
   transition-duration: 500ms;
@@ -427,15 +441,85 @@ $buttongroup-expand-max: 6; */
 .long-delay {
   animation-delay: 700ms !important; }
 
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.fade-in {
+  opacity: 0;
+  /* make things invisible upon start */
+  -webkit-animation: fadeIn ease-in 1;
+  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: 500ms;
+  -moz-animation-duration: 500ms;
+  animation-duration: 500ms; }
+
+@keyframes slide-in {
+  100% {
+    transform: translateX(0%); } }
+
+@-webkit-keyframes slide-in {
+  100% {
+    -webkit-transform: translateX(0%); } }
+
+.slide-in {
+  animation: slide-in 0.8s forwards;
+  -webkit-animation: slide-in 0.8s forwards; }
+
+.fade-in.one {
+  -webkit-animation-delay: 0.2s;
+  -moz-animation-delay: 0.2s;
+  animation-delay: 0.2s; }
+
+.fade-in.two {
+  -webkit-animation-delay: 0.4s;
+  -moz-animation-delay: 0.4s;
+  animation-delay: 0.4s; }
+
+.fade-in.three {
+  -webkit-animation-delay: 0.6s;
+  -moz-animation-delay: 0.6s;
+  animation-delay: 0.6s; }
+
+.fade-in.four {
+  -webkit-animation-delay: 0.8s;
+  -moz-animation-delay: 0.8s;
+  animation-delay: 0.8s; }
+
+.fade-in.five {
+  -webkit-animation-delay: 1.2s;
+  -moz-animation-delay: 1.2s;
+  animation-delay: 1.2s; }
+
+#instantclick {
+  display: none; }
+
 .container {
   width: 100%;
   position: relative;
-  height: 100%;
-  background: url(../images/maps.png) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
+  min-height: 780px;
+  background: url(../images/maps.png) repeat center center;
+  background-size: 100% 100%; }
   .container .hyperlink {
     border-bottom: solid 2px transparent;
     padding-bottom: 6px;
@@ -458,64 +542,137 @@ $buttongroup-expand-max: 6; */
     @media screen and (min-width: 40em) and (max-width: 90.1875em) {
       .container .content {
         max-width: 90%; } }
-    .container .content nav {
-      float: right;
-      display: inline; }
-      .container .content nav ul {
-        list-style-type: none; }
-      .container .content nav li {
-        float: left;
-        padding: 1.4rem;
-        font-size: 1em; }
+
+.main .content nav {
+  float: right;
+  display: inline; }
+  @media screen and (min-width: 0em) and (max-width: 39.9375em) {
+    .main .content nav {
+      width: 100%;
+      text-align: center; } }
+  .main .content nav ul {
+    list-style-type: none; }
+    @media screen and (min-width: 0em) and (max-width: 39.9375em) {
+      .main .content nav ul {
+        display: inline-block; } }
+  .main .content nav li {
+    float: left;
+    padding: 1.4rem;
+    font-size: 1em; }
 
 .main .content .about {
-  position: absolute;
-  top: 35%;
+  position: relative;
+  top: 6rem;
   left: 0;
+  text-align: center;
   right: 0;
   clear: both; }
-  .main .content .about img {
-    max-width: 1.8rem;
-    display: block;
+  @media screen and (min-width: 0em) and (max-width: 39.9375em) {
+    .main .content .about {
+      top: 1rem; } }
+  .main .content .about .logo {
+    max-width: 1.5rem;
     position: relative;
     margin: auto;
     bottom: 25px; }
   .main .content .about h1 {
     text-align: center;
     color: #3F3F3F; }
+    @media screen and (min-width: 0em) and (max-width: 39.9375em) {
+      .main .content .about h1 {
+        font-size: 3rem;
+        font-weight: 800; } }
   .main .content .about p {
     text-align: center;
-    margin: 0 auto;
+    margin: 0 auto 2rem auto;
     max-width: 600px;
     width: 80%; }
-  .main .content .about .large-12 div {
-    width: 150px;
-    height: 3rem;
-    top: 45px;
-    margin: 0 auto;
-    position: relative;
-    display: block; }
+  .main .content .about footer {
+    text-align: center;
+    display: block;
+    margin: 5em auto; }
+    .main .content .about footer ul {
+      list-style-type: none;
+      display: inline-block; }
+      .main .content .about footer ul li {
+        float: left;
+        display: block; }
+        .main .content .about footer ul li a img {
+          max-width: 38%;
+          -webkit-transition: all 500ms ease-out;
+          -moz-transition: all 500ms ease-out;
+          transition: all 500ms ease-out; }
+          .main .content .about footer ul li a img:hover {
+            opacity: .5;
+            transform: translateY(-0.3rem); }
+
+.work .content nav {
+  float: left;
+  display: inline; }
+  @media screen and (min-width: 0em) and (max-width: 39.9375em) {
+    .work .content nav {
+      width: 100%;
+      text-align: center; } }
+  .work .content nav ul {
+    list-style-type: none; }
+    @media screen and (min-width: 0em) and (max-width: 39.9375em) {
+      .work .content nav ul {
+        display: inline-block; } }
+  .work .content nav li {
+    float: left;
+    padding: 1.4rem;
+    font-size: 1em;
+    transform: translateX(-140%);
+    -webkit-transform: translateX(-140%); }
+    .work .content nav li span {
+      background: url(../images/back_arrow_icon.png) no-repeat;
+      width: 18px;
+      height: 12px;
+      display: inline-block;
+      background-size: cover;
+      margin-right: 11px; }
+
+.work .content .samples {
+  position: relative;
+  top: 5rem;
+  left: 0;
+  text-align: center;
+  right: 0;
+  clear: both; }
+  @media screen and (min-width: 0em) and (max-width: 39.9375em) {
+    .work .content .samples {
+      top: 1rem; } }
+  .work .content .samples ul {
+    list-style-type: none; }
+    .work .content .samples ul li {
+      font-size: 3rem; }
+      .work .content .samples ul li .hyperlink {
+        border-bottom: solid 4px transparent; }
+        .work .content .samples ul li .hyperlink:hover {
+          border-bottom: solid 4px #FF7E9F; }
 
 .button {
   border-radius: 5px;
   text-align: center;
-  width: 100%;
-  padding: 10px;
-  display: block;
-  -moz-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
-  color: #FF7E9F;
+  padding: .6rem 1.5rem;
   font-weight: bold;
+  -moz-box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.1);
+  color: #FF7E9F;
   -webkit-transition: all 500ms ease-out;
   -moz-transition: all 500ms ease-out;
   transition: all 500ms ease-out; }
   .button:hover {
-    box-shadow: none;
+    opacity: .5;
     color: #FF7E9F; }
 
 .cta {
-  background-color: white; }
+  background-color: white;
+  border: solid 2px #FF7E9F;
+  -webkit-transition: all 500ms ease-out;
+  -moz-transition: all 500ms ease-out;
+  transition: all 500ms ease-out; }
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
@@ -1694,7 +1851,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "mirador", Times, slab-serif;
+  font-family: "Mirador-BoldDEMO", Times, slab-serif;
   font-weight: bold;
   font-style: normal;
   color: inherit;
@@ -1775,10 +1932,10 @@ li {
 
 ul {
   list-style-type: disc;
-  margin-left: 1.25rem; }
+  margin-left: 0; }
 
 ol {
-  margin-left: 1.25rem; }
+  margin-left: 0; }
 
 ul ul, ol ul, ul ol, ol ol {
   margin-left: 1.25rem;

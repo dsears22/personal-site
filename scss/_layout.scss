@@ -1,12 +1,13 @@
+#instantclick {
+  display: none;
+}
+
 .container {
 	width: 100%;
 	position: relative;
-	height: 100%;
-	background: url(../images/maps.png) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+	min-height: 780px;
+	background: url(../images/maps.png) repeat center center; 
+  background-size: 100% 100%;
 
     .hyperlink {	border-bottom: solid 2px transparent;
   					padding-bottom: 6px;
@@ -39,22 +40,5 @@
   			max-width: 90%;
   		}
 
-  		nav {
-  			float: right;
-  			display: inline;
-
-  			ul {
-  				list-style-type: none;
-  			}
-
-  			li {
-  				float: left;
-  				padding: 1.4rem;
-  				font-size: 1em;
-
-  				
-  			}
-
-  		}
     }
 }

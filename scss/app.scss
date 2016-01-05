@@ -3,8 +3,10 @@
 @import 'settings';
 @import 'foundation';
 @import 'motion-ui';
+@import 'keyframes';
 @import 'layout';
 @import 'main';
+@import 'work';
 @import 'buttons';
 
 @include foundation-global-styles;

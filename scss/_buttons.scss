@@ -1,19 +1,17 @@
 .button {
 	border-radius: 5px;
 	text-align: center;
-	width: 100%;
-	padding: 10px;
-	display: block;
-	-moz-box-shadow:0px 0px 4px rgba(0,0,0,0.1);
-	-webkit-box-shadow:0px 0px 4px rgba(0,0,0,0.1);
-	box-shadow:0px 0px 4px rgba(0,0,0,0.1);
-	color: $primary-color;
+	padding: .6rem 1.5rem;
 	font-weight: bold;
+	-moz-box-shadow:0px 0px 7px rgba(0,0,0,0.1);
+	-webkit-box-shadow:0px 0px 7px rgba(0,0,0,0.1);
+	box-shadow:0px 0px 7px rgba(0,0,0,0.1);
+	color: $primary-color;
 	-webkit-transition: all 500ms ease-out;
     -moz-transition: all 500ms ease-out;
    	transition: all 500ms ease-out;
 	&:hover {
-		box-shadow: none;
+		opacity: .5;
 		color: $primary-color;
 	}
 
@@ -21,4 +19,8 @@
 
 .cta {
 	background-color: white;
+	border: solid 2px $primary-color;
+	-webkit-transition: all 500ms ease-out;
+    -moz-transition: all 500ms ease-out;
+   	transition: all 500ms ease-out;
 		}
