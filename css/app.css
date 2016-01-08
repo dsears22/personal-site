@@ -517,9 +517,9 @@ $buttongroup-expand-max: 6; */
 .container {
   width: 100%;
   position: relative;
-  min-height: 780px;
+  min-height: 100%;
   background: url(../images/maps.png) repeat center center;
-  background-size: 100% 100%; }
+  background-size: cover; }
   .container .hyperlink {
     border-bottom: solid 2px transparent;
     padding-bottom: 6px;
@@ -562,7 +562,7 @@ $buttongroup-expand-max: 6; */
 
 .main .content .about {
   position: relative;
-  top: 6rem;
+  top: 12rem;
   left: 0;
   text-align: center;
   right: 0;
