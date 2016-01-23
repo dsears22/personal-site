@@ -516,10 +516,7 @@ $buttongroup-expand-max: 6; */
 
 .container {
   width: 100%;
-  position: relative;
-  min-height: 100%;
-  background: url(../images/maps.png) repeat center center;
-  background-size: cover; }
+  position: relative; }
   .container .hyperlink {
     border-bottom: solid 2px transparent;
     padding-bottom: 6px;
@@ -561,8 +558,9 @@ $buttongroup-expand-max: 6; */
     font-size: 1em; }
 
 .main .content .about {
-  position: relative;
-  top: 12rem;
+  position: absolute;
+  top: 50%;
+  transform: translateY(50%);
   left: 0;
   text-align: center;
   right: 0;
@@ -1048,7 +1046,9 @@ body {
   font-weight: normal;
   line-height: 1.5;
   color: #7D7D7D;
-  background: #FDFBF8;
+  background: #FBFCFF;
+  background: url(../images/pattern.png) repeat center center; 
+  background-size: 168px 162px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
@@ -2231,7 +2231,7 @@ legend {
   padding: 16.6666666667rem;
   margin: 15rem 0; }
   .fieldset legend {
-    background: #FDFBF8;
+    background: #FBFCFF;
     padding: 0 2.5rem;
     margin: 0;
     margin-left: -2.5rem; }
@@ -2500,7 +2500,7 @@ select {
     margin: 0;
     font-size: inherit; }
     .button-group .button:not(:last-child) {
-      border-right: 1px solid #FDFBF8; }
+      border-right: 1px solid #FBFCFF; }
   .button-group.tiny {
     font-size: 0.6rem; }
   .button-group.small {
@@ -2554,7 +2554,7 @@ select {
     .button-group.stacked-for-small .button {
       width: auto; }
       .button-group.stacked-for-small .button:not(:last-child) {
-        border-right: 1px solid #FDFBF8; } }
+        border-right: 1px solid #FBFCFF; } }
 
 .callout {
   margin: 0 0 1rem 0;
@@ -2651,7 +2651,7 @@ select {
   margin-top: 14px; }
 
 .dropdown-pane {
-  background-color: #FDFBF8;
+  background-color: #FBFCFF;
   border: 1px solid #cacaca;
   display: block;
   padding: 1rem;
@@ -2924,7 +2924,7 @@ body {
 .off-canvas-content,
 .off-canvas-content {
   min-height: 100%;
-  background: #FDFBF8;
+  background: #FBFCFF;
   transition: transform 0.5s ease;
   backface-visibility: hidden;
   z-index: 1;
