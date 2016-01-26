@@ -1,64 +1,40 @@
 .main {
 	.content {
 
-		nav {
-  			float: right;
-  			display: inline;
-        @include breakpoint (small only) {
-          width: 100%;
-          text-align: center;
-        }
-
-  			ul {
-  				list-style-type: none;
-          @include breakpoint (small only) {
-          display: inline-block;
-        }
-  			}
-
-  			li {
-  				float: left;
-  				padding: 1.4rem;
-  				font-size: 1em;
-
-  				
-  			}
-
-  		}
-
 		.about {
-			position: absolute;
-  			top: 50%;
-  			transform: translateY(50%);
+			position: relative;
+  			top: 9em;
 			left: 0;
 			text-align: center;
 			right: 0;
 			clear: both;
-			@include breakpoint(small only) {
+			@include breakpoint(baby-bear only) {
 					top: 1rem;
 				}
 			.logo {
-				max-width: 1.5rem;
+				max-width: 1.9rem;
 				position: relative;
 				margin: auto;
 				bottom: 25px;
+				@include breakpoint(baby-bear) {
+					max-width: 2rem;
+				}
 			}
 			h1 {
 			text-align: center;
-			color: $dark-gray;
-			@include breakpoint(small only) {
-					font-size: 3rem;
-					font-weight: 800;
+			color: $darkGray;
+			@include breakpoint(baby-bear) {
+					font-size: 5rem;
 				}
 
 			}
 
 			p  { 
 				text-align: center;
-				margin: 0 auto 2rem auto;
-				max-width: 600px;
-				@include breakpoint(small) {
-					width: 80%;
+				margin: 1.2rem auto 2rem auto;
+				max-width: 550px;
+				@include breakpoint(baby-bear ) {
+					width: 85%;
 				}
 			}
 

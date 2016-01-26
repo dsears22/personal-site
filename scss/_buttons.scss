@@ -6,20 +6,20 @@
 	-moz-box-shadow:0px 0px 7px rgba(0,0,0,0.1);
 	-webkit-box-shadow:0px 0px 7px rgba(0,0,0,0.1);
 	box-shadow:0px 0px 7px rgba(0,0,0,0.1);
-	color: $primary-color;
+	color: $primaryColor;
 	-webkit-transition: all 500ms ease-out;
     -moz-transition: all 500ms ease-out;
    	transition: all 500ms ease-out;
 	&:hover {
 		opacity: .5;
-		color: $primary-color;
+		color: $primaryColor;
 	}
 
 }
 
 .cta {
 	background-color: white;
-	border: solid 2px $primary-color;
+	border: solid 2px $primaryColor;
 	-webkit-transition: all 500ms ease-out;
     -moz-transition: all 500ms ease-out;
    	transition: all 500ms ease-out;

@@ -1,0 +1,41 @@
+/* Breakpoints */
+
+$papa-bear: 1600px;
+$mama-bear: 1100px;
+$baby-bear: 650px;
+
+/* Media Queries */
+
+@mixin breakpoint($point) {
+    @if $point == papa-bear {
+        @media (max-width: $papa-bear) { @content; }
+    }
+    @else if $point == mama-bear {
+        @media (max-width: $mama-bear) { @content; }
+    }
+    @else if $point == baby-bear {
+        @media (max-width: $baby-bear)  { @content; }
+    }
+}
+
+/* Background Sizing for IE */
+
+@mixin ie-background-scale($url, $sizingmethod:'scale',$resetbackground: true) {
+    @if $resetbackground {
+        background-image: none;
+    }
+ 
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+        src='#{image-url($url,true)}',
+        sizingMethod='#{$sizingmethod}');
+}
+
+/* Placeholder Text for Inputs */
+
+@mixin input-placeholder {
+        &.placeholder { @content; }
+        &:-moz-placeholder { @content; }
+        &::-moz-placeholder { @content; }
+        &:-ms-input-placeholder { @content; }
+        &::-webkit-input-placeholder { @content; } 
+}
