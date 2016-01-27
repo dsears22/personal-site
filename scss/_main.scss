@@ -31,8 +31,8 @@
 
 			p  { 
 				text-align: center;
-				margin: 1.2rem auto 2rem auto;
-				max-width: 550px;
+				margin: 1.2rem auto 3rem auto;
+				max-width: 70%;
 				@include breakpoint(baby-bear ) {
 					width: 85%;
 				}
@@ -48,12 +48,13 @@
 				li {
 					float: left;
 					display: block;
+					width: 4em;
 
 					a {
 						
 
    						img {
-						max-width: 38%;
+						height: 1.85em;
 						-webkit-transition: all 500ms ease-out;
     					-moz-transition: all 500ms ease-out;
    						transition: all 500ms ease-out;

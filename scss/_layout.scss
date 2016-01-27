@@ -4,7 +4,7 @@
 
 body {
   background-image: url(/images/pattern.png);
-  background-size: 15%;
+  background-size: 10%;
   background-repeat: repeat;
 }
 
@@ -48,7 +48,7 @@ body {
           font-size: 1em;
 
           a {
-            font-size: 1.2em;
+            font-size: 1.1em;
             @include breakpoint(baby-bear) {
               font-size: 1.4em;
             }
