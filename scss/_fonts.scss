@@ -21,7 +21,7 @@
 }
 
 @font-face {
-  font-family: '/fonts/brandongrotesque';
+  font-family: 'brandongrotesque';
   src: url('/fonts/brandongrotesque-bold.eot'); /* IE9 Compat Modes */
   src: url('/fonts/brandongrotesque-bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('/fonts/brandongrotesque-bold.woff') format('woff'), /* Pretty Modern Browsers */
@@ -35,11 +35,11 @@
 
 @font-face {
   font-family: 'montserrat';
-  src: url('/fonts/montserrat-regular.eot'); /* IE9 Compat Modes */
-  src: url('/fonts/montserrat-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/fonts/montserrat-regular.woff') format('woff'), /* Pretty Modern Browsers */
-       url('/fonts/montserrat-regular.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('/fonts/montserrat-regular.svg#svgbrandongrotesque') format('svg'); /* Legacy iOS */
+  src: url('fonts/montserrat-regular.eot'); /* IE9 Compat Modes */
+  src: url('fonts/montserrat-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/montserrat-regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/montserrat-regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/montserrat-regular.svg#svgbrandongrotesque') format('svg'); /* Legacy iOS */
     font-weight: normal;
     font-style: normal;
 }

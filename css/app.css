@@ -88,7 +88,7 @@
   font-style: normal; }
 
 @font-face {
-  font-family: '/fonts/brandongrotesque';
+  font-family: 'brandongrotesque';
   src: url("/fonts/brandongrotesque-bold.eot");
   /* IE9 Compat Modes */
   src: url("/fonts/brandongrotesque-bold.eot?#iefix") format("embedded-opentype"), url("/fonts/brandongrotesque-bold.woff") format("woff"), url("/fonts/brandongrotesque-bold.ttf") format("truetype"), url("/fonts/brandongrotesque-bold.svg#svgbrandongrotesque") format("svg");
@@ -98,9 +98,9 @@
 
 @font-face {
   font-family: 'montserrat';
-  src: url("/fonts/montserrat-regular.eot");
+  src: url("fonts/montserrat-regular.eot");
   /* IE9 Compat Modes */
-  src: url("/fonts/montserrat-regular.eot?#iefix") format("embedded-opentype"), url("/fonts/montserrat-regular.woff") format("woff"), url("/fonts/montserrat-regular.ttf") format("truetype"), url("/fonts/montserrat-regular.svg#svgbrandongrotesque") format("svg");
+  src: url("fonts/montserrat-regular.eot?#iefix") format("embedded-opentype"), url("fonts/montserrat-regular.woff") format("woff"), url("fonts/montserrat-regular.ttf") format("truetype"), url("fonts/montserrat-regular.svg#svgbrandongrotesque") format("svg");
   /* Legacy iOS */
   font-weight: normal;
   font-style: normal; }
@@ -1021,8 +1021,12 @@ body {
   .container .content {
     max-width: 1344px;
     height: 90%;
-    margin: 0 auto;
-    position: relative; }
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0; }
     .container .content nav {
       float: right;
       display: inline; }
