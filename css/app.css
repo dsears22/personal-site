@@ -1018,29 +1018,48 @@ body {
   width: 100%;
   height: 100%;
   position: relative; }
-  .container .content {
-    max-width: 1344px;
-    height: 90%;
-    margin: auto;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0; }
-    .container .content nav {
-      float: right;
-      display: inline; }
-      .container .content nav ul {
-        list-style-type: none; }
-      .container .content nav li {
-        float: left;
-        padding: 1.4rem;
-        font-size: 1em; }
-        .container .content nav li a {
-          font-size: 1.1em; }
-          @media (max-width: 650px) {
-            .container .content nav li a {
-              font-size: 1.4em; } }
+
+.content {
+  max-width: 1344px;
+  height: 90%;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0; }
+
+.nav {
+  display: inline; }
+  .nav--right {
+    float: right; }
+  .nav--left {
+    float: left; }
+
+.nav__list {
+  list-style-type: none; }
+  .nav__list__item {
+    float: left;
+    padding: 1.4rem;
+    font-size: 1em; }
+    .nav__list__item--back {
+      float: left;
+      transform: translateX(-140%);
+      -webkit-transform: translateX(-140%); }
+
+.nav__link {
+  font-size: 1.1em; }
+  @media (max-width: 650px) {
+    .nav__link {
+      font-size: 1.4em; } }
+
+.nav__arrow {
+  background: url(../images/back_arrow_icon.png) no-repeat;
+  width: 18px;
+  height: 12px;
+  display: inline-block;
+  background-size: cover;
+  margin-right: 11px; }
 
 .main .content .about {
   position: relative;
@@ -1090,25 +1109,6 @@ body {
             opacity: .5;
             transform: translateY(-0.3rem); }
 
-.work .content nav {
-  float: left;
-  display: inline; }
-  .work .content nav ul {
-    list-style-type: none; }
-  .work .content nav li {
-    float: left;
-    padding: 1.4rem;
-    font-size: 1em;
-    transform: translateX(-140%);
-    -webkit-transform: translateX(-140%); }
-    .work .content nav li span {
-      background: url(../images/back_arrow_icon.png) no-repeat;
-      width: 18px;
-      height: 12px;
-      display: inline-block;
-      background-size: cover;
-      margin-right: 11px; }
-
 .work .content .samples {
   position: relative;
   top: 5rem;
@@ -1143,10 +1143,13 @@ body {
     box-shadow: 0px 0px 7px transparent;
     color: #FC80A0; }
 
-.cta {
+.button__text {
+  font-size: 1.25em;
+  font-weight: normal; }
+
+.button--cta {
   background: linear-gradient(white, #f9f8f8);
   border: solid 1px #E7E7E7;
-  font-size: 1.25em;
   -webkit-transition: all 500ms ease-out;
   -moz-transition: all 500ms ease-out;
   transition: all 500ms ease-out; }

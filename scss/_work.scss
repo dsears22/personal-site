@@ -2,42 +2,6 @@
 
 	.content {
 
-		nav {
-  			float: left;
-  			display: inline;
-        @include breakpoint (small only) {
-          width: 100%;
-          text-align: center;
-        }
-
-  			ul {
-  				list-style-type: none;
-          @include breakpoint (small only) {
-          display: inline-block;
-        }
-  			}
-
-  			li {
-  				float: left;
-  				padding: 1.4rem;
-  				font-size: 1em;
-  				transform: translateX(-140%);
-    			-webkit-transform: translateX(-140%);
-
-  				span {
-  					background: url(../images/back_arrow_icon.png) no-repeat;
-  					width: 18px;
-  					height: 12px;
-  					display: inline-block;
-  					background-size: cover;
-  					margin-right: 11px;
-  				}
-
-  				
-  			}
-
-  		}
-
   		.samples {
 			position: relative;
 			top: 5rem;

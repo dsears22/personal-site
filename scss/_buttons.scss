@@ -18,10 +18,14 @@
 
 }
 
-.cta {
+.button__text {
+	font-size: 1.25em;
+	font-weight: normal;
+}
+
+.button--cta {
 	background: $buttonGradient;
 	border: solid 1px $borderGradient;
-	font-size: 1.25em;
 	-webkit-transition: all 500ms ease-out;
     -moz-transition: all 500ms ease-out;
    	transition: all 500ms ease-out;
