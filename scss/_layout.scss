@@ -31,43 +31,28 @@ body {
   }
 }
 
-
-.nav {
-  display: inline; 
-  @include breakpoint (small only) {
-          width: 100%;
-          text-align: center;
-        }
-  &--right {
-    float: right;
-  }
-  &--left {
-    float: left;
-  }
-}
-
 .nav__list {
   list-style-type: none;
   @include breakpoint (small only) {
         display: inline-block;
-      }
-      &__item {
-        float: left;
-        padding: 1.4rem;
-        font-size: 1em;
-        &--back {
-          float: left;
-          transform: translateX(-140%);
-          -webkit-transform: translateX(-140%);
-  }
-      }
-}
+      }}
 
-.nav__link {
-  font-size: 1.1em;
+.nav__item {
+  padding: 1.4rem;
+  font-size: 1em;
   @include breakpoint(baby-bear) {
   font-size: 1.4em;
       }
+}
+
+.nav__item--right {
+  float: right;
+}
+
+.nav__item--left {
+  float: left;
+  transform: translateX(-140%);
+  -webkit-transform: translateX(-140%);
 }
 
 .nav__arrow {
