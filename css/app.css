@@ -1129,27 +1129,26 @@ body {
 .button {
   border-radius: 6px;
   text-align: center;
-  padding: .6rem 1.5rem;
   -moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.11);
   -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.11);
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.11);
-  color: #FC80A0;
   -webkit-transition: all 500ms ease-out;
   -moz-transition: all 500ms ease-out;
   transition: all 500ms ease-out; }
   .button:hover {
     -moz-box-shadow: 0px 0px 7px transparent;
     -webkit-box-shadow: 0px 0px 7px transparent;
-    box-shadow: 0px 0px 7px transparent;
-    color: #FC80A0; }
+    box-shadow: 0px 0px 7px transparent; }
 
-.button__text {
-  font-size: 1.25em;
-  font-weight: normal; }
-
-.button--cta {
+.button__primary {
   background: linear-gradient(white, #f9f8f8);
-  border: solid 1px #E7E7E7;
-  -webkit-transition: all 500ms ease-out;
-  -moz-transition: all 500ms ease-out;
-  transition: all 500ms ease-out; }
+  color: #FC80A0;
+  border: solid 1px #E7E7E7; }
+
+.button--small {
+  padding: .3rem .75rem;
+  font-size: 1em; }
+
+.button--medium {
+  padding: .6rem 1.5rem;
+  font-size: 1.25em; }

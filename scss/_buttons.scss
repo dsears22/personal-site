@@ -1,11 +1,9 @@
 .button {
 	border-radius: 6px;
 	text-align: center;
-	padding: .6rem 1.5rem;
 	-moz-box-shadow:0px 1px 2px rgba(0,0,0,0.11);
 	-webkit-box-shadow:0px 1px 2px rgba(0,0,0,0.11);
 	box-shadow:0px 1px 2px rgba(0,0,0,0.11);
-	color: $primaryColor;
 	-webkit-transition: all 500ms ease-out;
     -moz-transition: all 500ms ease-out;
    	transition: all 500ms ease-out;
@@ -13,20 +11,25 @@
 		-moz-box-shadow:0px 0px 7px rgba(0,0,0,0);
 		-webkit-box-shadow:0px 0px 7px rgba(0,0,0,0);
 		box-shadow:0px 0px 7px rgba(0,0,0,0);
-		color: $primaryColor;
 	}
 
 }
 
-.button__text {
-	font-size: 1.25em;
-	font-weight: normal;
+.button__primary {
+	background: $buttonGradient;
+	color: $primaryColor;
+	border: solid 1px $borderGradient;
 }
 
-.button--cta {
-	background: $buttonGradient;
-	border: solid 1px $borderGradient;
-	-webkit-transition: all 500ms ease-out;
-    -moz-transition: all 500ms ease-out;
-   	transition: all 500ms ease-out;
-		}
+.button__secondary{}
+
+
+.button--small {
+	padding: .3rem .75rem;
+	font-size: 1em;
+}
+
+.button--medium { 
+	padding: .6rem 1.5rem;
+	font-size: 1.25em;
+}
