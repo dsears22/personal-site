@@ -1,17 +1,10 @@
-.work {
-
-	.content {
-
-  		.samples {
-			position: relative;
-			left: 0;
-			text-align: center;
-			right: 0;
-			clear: both;
-			@include breakpoint(small only) {
-					top: 1rem;
-				}
-
-			}
+.samples {
+position: relative;
+left: 0;
+text-align: center;
+right: 0;
+clear: both;
+@include breakpoint(small only) {
+		top: 1rem;
 	}
 }

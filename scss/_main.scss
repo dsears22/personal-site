@@ -9,86 +9,23 @@
 
 
 .about {
-position: absolute;
-top: 0;
-left: 0;
-right: 0;
-bottom: 0;
-margin: auto;
-text-align: center;
-	@include breakpoint(baby-bear only) {
-	top: 1rem;
-	}
-}
-
-.main {
-	.content {
-
-		.about {
-			position: relative;
-  			top: 9em;
-			left: 0;
-			text-align: center;
-			right: 0;
-			clear: both;
-			@include breakpoint(baby-bear only) {
-					top: 1rem;
-				}
-
-			
-
-			p  { 
-				text-align: center;
-				margin: 1.2rem auto 3rem auto;
-				max-width: 70%;
-				@include breakpoint(baby-bear ) {
-					width: 85%;
-				}
-			}
-
-			footer {
-				text-align: center;
-				display: block;
-				margin: 5em auto;
-				ul {
-				list-style-type: none;
-				display: inline-block;
-				li {
-					float: left;
-					display: block;
-					width: 4em;
-
-					a {
-						
-
-   						img {
-						height: 1.85em;
-						-webkit-transition: all 500ms ease-out;
-    					-moz-transition: all 500ms ease-out;
-   						transition: all 500ms ease-out;
-						&:hover {
-							opacity: .5;
-							transform: translateY(-0.3rem)
-						}
-					}
-
-					}
-
-					
-				}
-
-
-			}
-
-			}
-
-			
-
+	position: absolute;
+	top: 9em;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	text-align: center;
+		@include breakpoint(baby-bear only) {
+		top: 1rem;
 		}
 
-
-
-	}
-
-
+		p {
+			margin: 20px auto 45px;
+		}
 }
+
+footer {
+	text-align: center;
+	display: block;
+	margin: 5em auto;}
