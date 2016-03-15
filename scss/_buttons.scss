@@ -14,13 +14,14 @@
 			-webkit-box-shadow:0px 0px 7px rgba(0,0,0,0);
 			box-shadow:0px 0px 7px rgba(0,0,0,0);
 		}
+		&__primary {
+			background: $buttonGradient;
+			color: black;
+			border: solid 1px $borderGradient;
+			}
 }
 
-.button__primary {
-	background: $buttonGradient;
-	color: $primaryColor;
-	border: solid 1px $borderGradient;
-}
+
 
 .icon__layout {
 	list-style-type: none;
@@ -40,4 +41,19 @@
 			transform: translateY(-0.3rem)
 			}
 	}
+}
+
+.hyperlink {
+ color: $link;
+ padding: 5px;
+ -webkit-transition: all 500ms ease;
+ -moz-transition: all 500ms ease;
+		-o-transition: all 500ms ease;
+	 -ms-transition: all 500ms ease;
+	 transition: all 500ms ease;
+		 &:hover {
+	 background-color: #E8EEFF;
+	 padding: 5px;
+	 border-radius: 4px;
+ 		}
 }

@@ -1,10 +1,14 @@
-$colorLink: #5869A2; //Purple
-$colorText: #7D7D7D; //Gray
-$primaryColor: #FC80A0; //Pink
+//Colors
+
+$purple: #7688BF; //Purple
+$lightPurple: #9DAAD2; //Light Purple
+$lightGray: #7D7D7D; //Gray
 $darkGray: #535353;
 $buttonGradient: linear-gradient(rgba(255,255,255,1), rgba(249,248,248,1) );
 $borderGradient: #E7E7E7;
 
+//Typographic Colors
 
-$h1-color: $darkGray;
-
+$headline: $darkGray;
+$link: $purple;
+$text: $lightGray;

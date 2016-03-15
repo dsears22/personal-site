@@ -1,29 +1,4 @@
-.logo {
-	max-width: 1.9rem;
-	position: relative;
-	margin: auto;
-	bottom: 25px;
-	@include breakpoint(baby-bear) {
-	max-width: 2rem;}
-}
 
-
-.about {
-	position: absolute;
-	top: 9em;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	margin: auto;
-	text-align: center;
-		@include breakpoint(baby-bear only) {
-		top: 1rem;
-		}
-
-		p {
-			margin: 20px auto 45px;
-		}
-}
 
 footer {
 	text-align: center;
