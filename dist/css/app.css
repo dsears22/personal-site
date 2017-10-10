@@ -190,7 +190,7 @@ a {
 .headline {
   font-weight: 100;
   font-family: "Open Sans", Helvetica, sans-serif;
-  color: #535353; }
+  color: #535354; }
   .headline--small {
     font-size: 14px; }
   .headline--medium {
@@ -1089,6 +1089,7 @@ body {
 footer {
   text-align: center;
   display: block;
+  background-color: red;
   margin: 5em auto; }
 
 .samples {
@@ -1120,7 +1121,7 @@ footer {
   .button__primary {
     background: linear-gradient(white, #f9f8f8);
     color: black;
-    border: solid 1px #E7E7E7; }
+    border: solid 1px #E7E7E5; }
 
 .icon__layout {
   list-style-type: none;
