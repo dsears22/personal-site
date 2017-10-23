@@ -27,6 +27,30 @@
 		"oAP": "\/config.yml",
 		"oF": 0
 		},
+	"\/fonts\/Karla-Bold.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Karla-Bold.ttf",
+		"oF": 0
+		},
+	"\/fonts\/Karla-BoldItalic.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Karla-BoldItalic.ttf",
+		"oF": 0
+		},
+	"\/fonts\/Karla-Italic.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Karla-Italic.ttf",
+		"oF": 0
+		},
+	"\/fonts\/Karla-Regular.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Karla-Regular.ttf",
+		"oF": 0
+		},
 	"\/fonts\/Merriweather-Black.ttf": {
 		"ft": 8192,
 		"oA": 2,
@@ -109,7 +133,7 @@
 		},
 	"\/images\/illustration_house@2x.png": {
 		"ft": 32768,
-		"iS": 20629,
+		"iS": 20622,
 		"oA": 0,
 		"oAP": "\/images\/illustration_house@2x.png",
 		"oF": 0,
@@ -131,7 +155,7 @@
 		},
 	"\/images\/logo.png": {
 		"ft": 32768,
-		"iS": 1593,
+		"iS": 1591,
 		"oA": 0,
 		"oAP": "\/images\/logo.png",
 		"oF": 0,
@@ -174,7 +198,7 @@
 		},
 	"\/images\/pattern.png": {
 		"ft": 32768,
-		"iS": 2058,
+		"iS": 2056,
 		"oA": 0,
 		"oAP": "\/images\/pattern.png",
 		"oF": 0,
@@ -185,7 +209,7 @@
 		},
 	"\/images\/twitter_icon.png": {
 		"ft": 32768,
-		"iS": 2708,
+		"iS": 2701,
 		"oA": 0,
 		"oAP": "\/images\/twitter_icon.png",
 		"oF": 0,
