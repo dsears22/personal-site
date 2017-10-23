@@ -216,6 +216,10 @@ a {
     font-size: 3.5rem;
     line-height: 2em; }
 
+h1 {
+  font-size: 48px;
+  color: blue; }
+
 p {
   letter-spacing: .2px;
   font-weight: 400;
@@ -1001,90 +1005,15 @@ p {
   display: none; }
 
 body {
-  background-color: #9DAAD2;
+  background-color: #FBFBFB;
   font-size: 16px; }
 
 .container {
-  max-width: 830px;
+  max-width: 90%;
+  height: 800px;
   position: relative;
-  background-color: white;
-  margin: 45px auto;
-  border-radius: 4px;
-  -webkit-box-shadow: 0px 0px 29px 0px rgba(0, 0, 0, 0.23);
-  -moz-box-shadow: 0px 0px 29px 0px rgba(0, 0, 0, 0.23);
-  box-shadow: 0px 0px 29px 0px rgba(0, 0, 0, 0.23); }
-
-.top {
-  border-bottom: solid 1px #EFEFEF;
-  padding-bottom: 45px; }
-
-.logo {
-  max-width: 3rem;
-  position: relative;
-  margin: auto;
-  display: inline-block;
-  padding: 40px; }
-  @media (max-width: 650px) {
-    .logo {
-      max-width: 2rem; } }
-
-.house {
-  width: 60%;
-  position: relative;
-  margin: 10px auto 30px;
-  display: block; }
-
-.down-arrow {
-  position: relative;
-  display: block;
-  margin: 75px auto 5px;
-  animation: bounce 1.9s linear infinite; }
-  .down-arrow__alt {
-    margin: 5px auto;
-    animation: bounce2 1.9s linear infinite; }
-
-.nav__list {
-  list-style-type: none;
-  display: inline-block;
-  float: right;
-  margin: 45px 15px 0px 0px;
-  font-family: "Open Sans", Helvetica, sans-serif;
-  font-weight: 400; }
-  @media (max-width: 650px) {
-    .nav__list {
-      display: inline-block;
-      position: relative;
-      width: 100%;
-      float: none;
-      text-align: center; } }
-
-.nav__item {
-  padding: 0 25px;
-  font-size: 16px;
-  float: left; }
-  @media (max-width: 650px) {
-    .nav__item {
-      font-size: 1.4em;
-      display: inherit; } }
-
-.nav__item--left {
-  float: left;
-  transform: translateX(-140%);
-  -webkit-transform: translateX(-140%); }
-  @media (max-width: 650px) {
-    .nav__item--left {
-      float: none; } }
-
-.nav__arrow {
-  background: url(../images/back_arrow_icon.png) no-repeat;
-  width: 18px;
-  height: 12px;
-  display: inline-block;
-  background-size: cover;
-  margin-right: 11px; }
-
-.center {
-  text-align: center; }
+  margin: 5em auto;
+  background-color: red; }
 
 footer {
   text-align: center;
