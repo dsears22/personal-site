@@ -15,94 +15,64 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
+	"\/build\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/.gitignore",
+		"oF": 0
+		},
 	"\/config.yml": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/config.yml",
 		"oF": 0
 		},
-	"\/fonts\/brandongrotesque-bold.eot": {
+	"\/fonts\/Merriweather-Black.ttf": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/fonts\/brandongrotesque-bold.eot",
+		"oAP": "\/fonts\/Merriweather-Black.ttf",
 		"oF": 0
 		},
-	"\/fonts\/brandongrotesque-bold.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/fonts\/brandongrotesque-bold.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/fonts\/brandongrotesque-bold.ttf": {
+	"\/fonts\/Merriweather-BlackItalic.ttf": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/fonts\/brandongrotesque-bold.ttf",
+		"oAP": "\/fonts\/Merriweather-BlackItalic.ttf",
 		"oF": 0
 		},
-	"\/fonts\/brandongrotesque-bold.woff": {
+	"\/fonts\/Merriweather-Bold.ttf": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/fonts\/brandongrotesque-bold.woff",
+		"oAP": "\/fonts\/Merriweather-Bold.ttf",
 		"oF": 0
 		},
-	"\/fonts\/brandongrotesque-light.eot": {
+	"\/fonts\/Merriweather-BoldItalic.ttf": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/fonts\/brandongrotesque-light.eot",
+		"oAP": "\/fonts\/Merriweather-BoldItalic.ttf",
 		"oF": 0
 		},
-	"\/fonts\/brandongrotesque-light.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/fonts\/brandongrotesque-light.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/fonts\/brandongrotesque-light.ttf": {
+	"\/fonts\/Merriweather-Italic.ttf": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/fonts\/brandongrotesque-light.ttf",
+		"oAP": "\/fonts\/Merriweather-Italic.ttf",
 		"oF": 0
 		},
-	"\/fonts\/brandongrotesque-light.woff": {
+	"\/fonts\/Merriweather-Light.ttf": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/fonts\/brandongrotesque-light.woff",
+		"oAP": "\/fonts\/Merriweather-Light.ttf",
 		"oF": 0
 		},
-	"\/fonts\/brandongrotesque-regular.eot": {
+	"\/fonts\/Merriweather-LightItalic.ttf": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/fonts\/brandongrotesque-regular.eot",
+		"oAP": "\/fonts\/Merriweather-LightItalic.ttf",
 		"oF": 0
 		},
-	"\/fonts\/brandongrotesque-regular.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/fonts\/brandongrotesque-regular.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/fonts\/brandongrotesque-regular.ttf": {
+	"\/fonts\/Merriweather-Regular.ttf": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/fonts\/brandongrotesque-regular.ttf",
-		"oF": 0
-		},
-	"\/fonts\/brandongrotesque-regular.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/brandongrotesque-regular.woff",
+		"oAP": "\/fonts\/Merriweather-Regular.ttf",
 		"oF": 0
 		},
 	"\/images\/back_arrow_icon.png": {
@@ -1046,7 +1016,7 @@
 	"displayValue": "my-site",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-ariel",
-	"lastBuiltDate": 530411272
+	"lastBuiltDate": 530419301
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
