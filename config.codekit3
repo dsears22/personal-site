@@ -1049,10 +1049,10 @@
 	},
 "projectAttributes": {
 	"creationDate": 530409237,
-	"displayValue": "personal-site",
+	"displayValue": "my-site",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-ariel",
-	"lastBuiltDate": 530410850
+	"lastBuiltDate": 530411086
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
