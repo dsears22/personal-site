@@ -1,4 +1,2 @@
-
-node_modules/gulp-sass/node_modules/node-sass/node_modules/sass-graph/node_modules/lodash/function/defer.js
-/node_modules/*
-_site/build/node_modules/*
+*
+!.gitignore
