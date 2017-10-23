@@ -1,1 +1,0 @@
-$(document).ready(function(){$("#main").delay(500).fadeIn(1e3),$(".menu-item").click(function(e){e.preventDefault();var n=this.href;$("#page-wrap").fadeOut(1e3,function(){window.location=n})})});

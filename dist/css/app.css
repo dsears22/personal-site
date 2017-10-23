@@ -216,6 +216,10 @@ a {
     font-size: 3.5rem;
     line-height: 2em; }
 
+h1 {
+  font-size: 48px;
+  color: blue; }
+
 p {
   letter-spacing: .2px;
   font-weight: 400;
@@ -1001,17 +1005,15 @@ p {
   display: none; }
 
 body {
-  background-color: #3457E5;
+  background-color: #FBFBFB;
   font-size: 16px; }
 
 .container {
-  max-width: 830px;
+  max-width: 90%;
+  height: 800px;
   position: relative;
-  margin: 45px auto;
-  border-radius: 4px;
-  -webkit-box-shadow: 0px 0px 29px 0px rgba(0, 0, 0, 0.23);
-  -moz-box-shadow: 0px 0px 29px 0px rgba(0, 0, 0, 0.23);
-  box-shadow: 0px 0px 29px 0px rgba(0, 0, 0, 0.23); }
+  margin: 5em auto;
+  background-color: red; }
 
 footer {
   text-align: center;

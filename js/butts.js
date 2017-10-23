@@ -1,1 +1,0 @@
-var butts = 9;
