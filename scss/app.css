@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,600italic,700,700italic);
 @import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,700);
 @-webkit-keyframes fadeIn {
   from {
     opacity: 0; }
@@ -1015,10 +1016,11 @@ body {
   width: 90%; }
   .container h1 {
     margin-top: 50px;
-    font-family: 'Merriweather-Bold', serif;
+    font-family: 'Merriweather', serif;
     color: #393939;
+    font-weight: bold;
     font-size: 5em;
-    text-alig: left;
+    text-align: left;
     width: 30%; }
   .container p {
     text-align: left;

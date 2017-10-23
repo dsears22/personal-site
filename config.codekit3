@@ -15,10 +15,22 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
+	"\/_site\/build\/node_modules": {
+		"ft": 65536,
+		"oA": 2,
+		"oAP": "\/build\/_site\/build\/node_modules",
+		"oF": 0
+		},
 	"\/build\/.gitignore": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/build\/.gitignore",
+		"oF": 0
+		},
+	"\/build\/node_modules": {
+		"ft": 65536,
+		"oA": 2,
+		"oAP": "\/build\/build\/node_modules",
 		"oF": 0
 		},
 	"\/config.yml": {
@@ -122,7 +134,7 @@
 		},
 	"\/images\/dribbble_icon.png": {
 		"ft": 32768,
-		"iS": 2524,
+		"iS": 5098,
 		"oA": 0,
 		"oAP": "\/images\/dribbble_icon.png",
 		"oF": 0,
@@ -133,7 +145,7 @@
 		},
 	"\/images\/illustration_house@2x.png": {
 		"ft": 32768,
-		"iS": 20622,
+		"iS": 75846,
 		"oA": 0,
 		"oAP": "\/images\/illustration_house@2x.png",
 		"oF": 0,
@@ -144,7 +156,7 @@
 		},
 	"\/images\/instagram_icon.png": {
 		"ft": 32768,
-		"iS": 2119,
+		"iS": 3795,
 		"oA": 0,
 		"oAP": "\/images\/instagram_icon.png",
 		"oF": 0,
@@ -155,7 +167,7 @@
 		},
 	"\/images\/logo.png": {
 		"ft": 32768,
-		"iS": 1591,
+		"iS": 2644,
 		"oA": 0,
 		"oAP": "\/images\/logo.png",
 		"oF": 0,
@@ -187,7 +199,7 @@
 		},
 	"\/images\/maps_mobile_@3x.png": {
 		"ft": 32768,
-		"iS": 138635,
+		"iS": 551327,
 		"oA": 0,
 		"oAP": "\/images\/maps_mobile_@3x.png",
 		"oF": 0,
@@ -198,7 +210,7 @@
 		},
 	"\/images\/pattern.png": {
 		"ft": 32768,
-		"iS": 2056,
+		"iS": 5460,
 		"oA": 0,
 		"oAP": "\/images\/pattern.png",
 		"oF": 0,
@@ -209,7 +221,7 @@
 		},
 	"\/images\/twitter_icon.png": {
 		"ft": 32768,
-		"iS": 2701,
+		"iS": 5300,
 		"oA": 0,
 		"oAP": "\/images\/twitter_icon.png",
 		"oF": 0,
@@ -263,6 +275,12 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"\/node_modules": {
+		"ft": 65536,
+		"oA": 2,
+		"oAP": "\/build\/node_modules",
+		"oF": 0
 		},
 	"\/package-lock.json": {
 		"ft": 524288,
@@ -1037,7 +1055,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 530409237,
-	"displayValue": "my-site",
+	"displayValue": "personal-site",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-ariel",
 	"lastBuiltDate": 530419301
