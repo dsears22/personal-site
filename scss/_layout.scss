@@ -49,4 +49,28 @@ body {
     width: 40%;
     line-height: 1.4em;
   }
+
+  .grid {
+    border: solid 1px black;
+    height: 400px;
+    margin-top: 55px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 2em;
+  }
+
+  .item-1 {
+    background-color: blue;
+
+  }
+  .item-2 {
+    background-color: red;
+
+
+  }
+  .item-3 {
+    background-color: green;
+
+
+  }
 }

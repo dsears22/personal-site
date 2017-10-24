@@ -1030,6 +1030,19 @@ body {
     color: #898989;
     width: 40%;
     line-height: 1.4em; }
+  .container .grid {
+    border: solid 1px black;
+    height: 400px;
+    margin-top: 55px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 2em; }
+  .container .item-1 {
+    background-color: blue; }
+  .container .item-2 {
+    background-color: red; }
+  .container .item-3 {
+    background-color: green; }
 
 footer {
   text-align: center;
